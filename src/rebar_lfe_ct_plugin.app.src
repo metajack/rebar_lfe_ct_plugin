@@ -1,0 +1,7 @@
+%% -*- mode: erlang -*-
+
+{application, rebar_lfe_ct_plugin,
+ [{description, "Enable Common Test suites to be written in LFE."},
+  {vsn, "1.0"},
+  {registerd, []},
+  {applications, [kernel, stdlib]}]}.
